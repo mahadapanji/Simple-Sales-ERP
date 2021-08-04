@@ -1,0 +1,17 @@
+<p>sales-order-list works!</p>
+<h1>{{message}}</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>No Bukti</th>
+            <th>Tgl Trn</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dataItem of SalesOrderList">
+            <td>{{dataItem.NoBukti}}</td>
+        </tr>
+    </tbody>
+</table>
+
